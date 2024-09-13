@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /*  importing default font family */
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body::-webkit-scrollbar{
+ display: none;
+}
+
+
+
